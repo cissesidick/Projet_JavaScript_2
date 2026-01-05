@@ -1,6 +1,6 @@
-// ==============================================
+
 // FONCTIONS DE MANIPULATION DE CHAÎNES
-// ==============================================
+
 
 // 1️⃣ Inverser une chaîne de caractères
 function reverseString(str) {
@@ -20,9 +20,9 @@ function capitalizeWords(sentence) {
         .join(" ");
 }
 
-// ==============================================
+
 // FONCTIONS DE TABLEAU
-// ==============================================
+
 
 // 4️⃣ Trouver le maximum dans un tableau
 function findMax(arr) {
@@ -44,9 +44,9 @@ function filterArray(arr, condition) {
     return arr.filter(condition);
 }
 
-// ==============================================
+
 // FONCTIONS MATHÉMATIQUES
-// ==============================================
+
 
 // 8️⃣ Calcul de la factorielle d'un nombre
 function factorial(n) {
@@ -74,9 +74,8 @@ function fibonacci(n) {
     return sequence;
 }
 
-// ==============================================
+
 // EXEMPLES DE TEST
-// ==============================================
 
 console.log("=== TEST CHAÎNES ===");
 console.log(reverseString("bonjour"));                // "ruojnob"
